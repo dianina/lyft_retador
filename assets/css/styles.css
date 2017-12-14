@@ -1,0 +1,65 @@
+/*
+*Estilos generales
+*/
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+/*
+*Estilos fondo vista splash
+*/
+.loader{
+  background-image: url(../img/splash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 3;
+  text-align: center;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.loader i {
+  font-size: 45px;
+  color: #090009
+}
+
+.logo_white {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.login {
+   background-image: url(../img/chicago.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 3;
+  text-align: center;
+}
