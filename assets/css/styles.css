@@ -119,5 +119,13 @@ body {
 
 #volver2 i {
   font-size: 25px;
+  margin-left: -680px;
+  margin-top: 63px;
+  display: inline-block;
+}
+
+.datos h2 {
+  display: inline-block;
   margin-left: 50px;
+  margin-top: -24px;
 }
