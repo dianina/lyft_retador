@@ -15,6 +15,7 @@ body {
 /*
 *Estilos fondo vista splash
 */
+
 .loader{
   background-image: url(../img/splash.jpg);
   background-repeat: no-repeat;
@@ -34,7 +35,7 @@ body {
 .logo {
   justify-content: center;
   align-items: center;
-  margin-top: 40%;
+  margin-top: 20%;
 }
 
 .loader i {
@@ -100,7 +101,7 @@ body {
   color: #000;
   background-color: #D2B9B9;
   height: 700px;
-  padding: 5px;
+  padding: 5px 35px;
 }
 
 #formLog{
