@@ -42,14 +42,10 @@ body {
   color: #090009
 }
 
-.logo_white {
-  justify-content: center;
-  align-items: center;
-  margin-top: 20%;
-}
 
-.login {
-   background-image: url(../img/chicago.jpg);
+.fondo {
+  height: 100vh;
+  background-image: url(../img/chicago.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -62,4 +58,8 @@ body {
   overflow: auto;
   z-index: 3;
   text-align: center;
+}
+
+.whitelogo {
+  margin-left: 40%;
 }

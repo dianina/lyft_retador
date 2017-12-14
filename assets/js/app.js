@@ -1,16 +1,16 @@
-$(document).ready(function(){
+$(document).ready(function() {
+/**
+ * Función de la vista splash inicial
+ *
+ */
+$().ready(function() {
+  $('.mainfull').hide();
+  $(".splash").fadeIn(500).fadeOut(5000, show);
 
-/*
-*Loader 
-*/
- $('.loader').delay(3000).fadeOut("slow");
-
-/*
-*Paso de screen splash a contenido
-*/
-setTimeout(function(){
-    $('.loader').show();
-    }, 2000);
+  function show() {
+    $('.mainfull').show();
+  }
+});
 
 
 /**
@@ -19,7 +19,7 @@ setTimeout(function(){
  */
 $('#signUp').click(function() {
   $('#form').show();
-  $('#inicial').hide();
+  $('#mainfull').hide();
 })
 
 /**
