@@ -29,20 +29,60 @@
   </div>
   <!-- Screen Login -->
   <div class="mainfull">
-  <div id="principal" class="container fondo">
+    <div id="mainfull" class="container fondo">
       <div class="row">
-        <div class="col-xs12">
-          <img class="img-responsive whitelogo" src="assets/img/lyf_white.jpg" alt="logo_white">
+        <div class="col-xs-offset-5 col-xs-4 col-sm-offset-4 col-sm-4" style="margin-top: 2em;">
+          <img class="img-responsive" src="assets/img/lyf_white.jpg" alt="Logo Lyft">
+        </div>
+        <div class="row">
+          <div class="col-xs-offset-2 col-sm-offset-1 col-xs-10 col-sm-9" style="margin-top: 3em;">
+            <span class="input-group-btn">
+              <button class="btn btn-default btn-lg" type="button">LOG IN</button>
+            </span>
+            <span class="input-group-btn">
+              <button id="signUp" class="btn btn-default btn-lg" type="button">SIGN UP</button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div><!-- cierre mainfull id -->
+  <!-- Formulario signup -->
+    <div id="form" class="container_form" style="display: none">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 2em;">
+          <span id="volver"><i class="fa fa-backward" aria-hidden="true"></i></span>
+          <h2 style="text-align: center;">Sign up</h2>
+          <p style="text-align: center;">Join now for free ride credit</p>
+          <hr>
+          <div class="input-group">
+            <div class="input-group-btn search-panel">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <span id="search_concept">País</span> <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Colombia</a></li>
+                <li><a href="#">Chile</a></li>
+                <li><a href="#">Bolivia</a></li>
+                <li><a href="#">Argentina</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="search_param" value="all" id="search_param">
+            <input id="number" type="text" class="form-control" name="x" placeholder="ingrese número">
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top:5em;">
+        <div class="col-xs-12 col-sm-12">
+          <a id="btn-next" class="btn btn-default btn-lg btn-block disabled">Next</a>
+        </div>
+      </div>
+      <div class="row" style="margin-top:5em;">
+        <div class="col-xs-12 col-sm-12">
+          <div id="alert-dialogue"></div>
         </div>
       </div>
     </div>
-    <div class="container">
-    <div class="row">
-        <div class="col-xs-offset-1 col-xs-9"><button class=".btn-default .btn-lg login" id="btn1">LOG IN</button><button class=".btn-default .btn-lg signup" id="btn2">SIGN UP</button>
-        </div>
-    </div>
-</div
-  </div><!-- cierre mainfull -->
+  </div><!-- cierre mainfull class -->
 
 
 

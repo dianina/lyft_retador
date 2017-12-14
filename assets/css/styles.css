@@ -34,7 +34,7 @@ body {
 .logo {
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 40%;
 }
 
 .loader i {
@@ -61,5 +61,54 @@ body {
 }
 
 .whitelogo {
-  margin-left: 40%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.login,.signup {
+  background-color: #000;
+  color: white;
+  padding: 4vh 7.5vh;
+  border-radius: 4px;
+  border-color: #fff;
+  margin-bottom: 2%;
+  z-index: 3;
+}
+
+.btn-default {
+  background-color: #000;
+  font-weight: bold;
+  border-color: #000;
+  color: #FFF;
+}
+
+/*
+*Estilos vista mainfull
+*/
+
+
+#volver i {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+/*
+*Estilos formulario signup
+*/
+
+#form {
+  color: #000;
+  background-color: #D2B9B9;
+  height: 700px;
+}
+
+.disabled {
+  background-color: #999999;
+}
+
+/* Estilos de Alerta con código*/
+.alert-success {
+  color: #380063;
+  background-color: #f660d0;
+  border-color: #f660d0;
 }

@@ -25,6 +25,10 @@ $('#signUp').click(function() {
 /**
  * Función para ir a la sección anterior
  */
+$('#volver').click(function() {
+  $('#mainfull').show();
+  $('#form').hide();
+})
 
 });
 
