@@ -106,9 +106,18 @@ body {
   background-color: #999999;
 }
 
-/* Estilos de Alerta con código*/
-.alert-success {
-  color: #380063;
-  background-color: #f660d0;
-  border-color: #f660d0;
+/*
+*Estilos formulario login
+*/
+
+.datos {
+  text-align: center;
+  color: #000;
+  background-color: #D2B9B9;
+  height: 700px;
+}
+
+#volver2 i {
+  font-size: 25px;
+  margin-left: 50px;
 }

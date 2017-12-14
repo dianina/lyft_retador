@@ -14,7 +14,7 @@ $().ready(function() {
 
 
 /**
- * Función pasando a ste screen
+ * Función activando btn Signup
  *
  */
 $('#signUp').click(function() {
@@ -28,7 +28,24 @@ $('#signUp').click(function() {
 $('#volver').click(function() {
   $('#mainfull').show();
   $('#form').hide();
+});
+/**
+ * Función activando btn Login
+ *
+ */
+$('#logIn').click(function() {
+  $('#formLog').show();
+  $('#mainfull').hide();
 })
+/**
+ * Función para ir a la sección anterior
+ */
+$('#volver2').click(function() {
+  $('#mainfull').show();
+  $('#formLog').hide();
+});
+
+
 
 });
 
