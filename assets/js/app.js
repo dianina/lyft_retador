@@ -45,31 +45,6 @@ $('#volver2').click(function() {
   $('#formLog').hide();
 });
 
-/*  //Almacenamos los valores
-  nombre=$('#nombre').val();
-  
-   //Comprobamos la longitud de caracteres
-  if (nombre.length<6){
-    return true;
-  }
-  else {
-    alert('Maximo 5 caracteres');
-    return false;
-    
-  }
-
-}
-
-var max_chars = 25;
-
-    $('#max').html(max_chars);
-
-    $('#comment').keyup(function() {
-        var chars = $(this).val().length;
-        var diff = max_chars - chars;
-        $('#contador').html(diff);   
-    });*/
-
 
 });
 

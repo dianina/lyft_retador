@@ -90,7 +90,15 @@ body {
 
 #volver i {
   font-size: 25px;
-  margin-left: 50px;
+  margin-left: 32vh;
+}
+
+#volver2 i {
+  font-size: 25px;
+  margin-left: -50vx;
+  margin-top: 6vh;
+  display: inline-block;
+  float: unset;
 }
 
 /*
@@ -99,7 +107,7 @@ body {
 
 #form {
   color: #000;
-  background-color: #D2B9B9;
+  background-color: #699FF1;
   height: 700px;
   padding: 5px 35px;
 }
@@ -109,7 +117,8 @@ body {
 }
 
 .disabled {
-  background-color: #999999;
+  background-color: #29DE20;
+  border-color: #29DE20;
 }
 
 /*
@@ -119,16 +128,21 @@ body {
 .datos {
   text-align: center;
   color: #000;
-  background-color: #D2B9B9;
+  background-color: #699FF1;
   height: 700px;
 }
 
+.datos h2 {
+  display: inline-block;
+}
+/*
 #volver2 i {
   font-size: 25px;
   margin-left: -680px;
   margin-top: 63px;
   display: inline-block;
 }
+*/
 
 .ckbx span {
   color: blue;
