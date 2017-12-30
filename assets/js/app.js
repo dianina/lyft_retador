@@ -66,17 +66,33 @@ $(".phonee").keyup(function(){
     }
   });
 
-/**
-*activa el botón NEXT solo si se ingresaron 10 dígitos(la siguiente función se
-*asegura de que estos 10 digitos sean solo números)
+/*
+Activar botón NEXT, solo si se ingresaron 
+10 dígitos(la siguiente función
+asegura de que estos 10 digitos sean solo números)
 */
   $('#phonee').keyup(function(){
     if($(this).val().length > 9){
-      $('#submitBtn').removeAttr('disabled');
+      $('#phone-next').removeAttr('disabled');
     } else {
-      $('#submitBtn').attr('disabled','disabled');
+      $('#phone-next').attr('disabled','disabled');
     }
   }).trigger('keyup');
 
 });
 
+/* 
+Creaciòn de código aleatorio
+*/
+$("#phone-next").click(function(){
+    var newCode = [];
+    var phone = $("#phone").val();
+    var number1 = Math.round(Math.random()*9);
+    var number2 = Math.round(Math.random()*9);
+    var number3 = Math.round(Math.random()*9);
+    newCode.push("LAB-"+number1+number2+number3);
+    alert("Tu código es "+newCode);
+    $("#enter").html('<p id="#enter">Enter code sent to +56'+phone+'</p>');
+    $(".second").hide();
+    $(".third").fadeIn(3000);
+  });
