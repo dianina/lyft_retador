@@ -121,6 +121,16 @@ body {
   border-color: #29DE20;
 }
 
+/*Botones back y next
+*/
+
+#phone {
+  color: white;
+}
+.next,.back {
+  background-color: #e10a89;
+}
+
 /*
 *Estilos formulario login
 */

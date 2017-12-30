@@ -46,11 +46,10 @@
         </div>
       </div>
     </div><!-- cierre mainfull id -->
-  <!-- Formulario signup -->
+  <!-- Formulario Sign up -->
     <div id="form" class="container_form" style="display: none">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 2em;">
-          <span id="volver"><i class="fa fa-backward" aria-hidden="true"></i></span>
           <h2 style="text-align: center;"><b>Sign up</b></h2>
           <p style="text-align: center;">¡Join now for free ride credit!</p>
           <hr>
@@ -66,27 +65,26 @@
                 <li><a href="#">Argentina</a></li>
               </ul>
             </div>
-            <input type="hidden" name="search_param" value="all" id="search_param">
-            <input id="number" type="text" class="form-control" name="x" placeholder="ingrese número">
+           
+            <input type="text" id="phonee" maxlength="10" class="form-control phonee" placeholder="Ingrese número" aria-describedby="basic-addon1">
           </div>
         </div>
       </div>
       <div class="row" style="margin-top:5em;">
         <div class="col-xs-12 col-sm-12">
-          <a id="btn-next" class="btn btn-default btn-lg btn-block disabled">Next</a>
-        </div>
-      </div>
-      <div class="row" style="margin-top:5em;">
-        <div class="col-xs-12 col-sm-12">
-          <div id="alert-dialogue"></div>
+          <div class="col-xs-6">
+            <a href="#" class="back btn right" id="phone-back">Back</a>
+          </div>
+          <div class="col-xs-6">
+            <a href="#" class="next btn left" id="phone-next" disabled="disabled">Next</a>
+          </div>
         </div>
       </div>
     </div>
   <!-- Formulario Login -->
   <div class="row">
     <div class="col-xs-12 col-sm-12 datos">
-      <span id="volver2"><i class="fa fa-backward" aria-hidden="true"></i></span>
-        <br>
+      <br>
         <h2 style="text-align: center;"><b>Sign up</b></h2>
         <p style="text-align: center;">¡Join now for free ride credit!</p>
         <hr>
@@ -107,6 +105,12 @@
             <input type="checkbox" class="form-check-input ckbx">
             I agree to Lyft'ss <span>Terms of Service</span>
           </label>
+          <div class="col-xs-6">
+            <a href="#" class="back btn right" id="phone-back2">Back</a>
+          </div>
+          <div class="col-xs-s6">
+            <a href="#" class="next btn left" id="phone-next2" disabled="disabled">Next</a>
+          </div>
         </div>
       </div>
     </div>  

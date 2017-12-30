@@ -46,5 +46,37 @@ $('#volver2').click(function() {
 });
 
 
+/*
+Funcionalidad botones next/back,
+tanto en Log In como en Sign Out
+*/
+$("#phone-back").click(function(){
+  $("#mainfull").fadeIn(1000);
+  });
+
+$("#phone-back2").click(function(){
+  $("#mainfull").fadeIn(1000);
+  });
+
+$(".phonee").keyup(function(){
+    if($(this).val().length == 10){
+      $("#phone-back").removeAttr("disabled");
+    }else{
+      $("#phone-back").attr("disabled", true);
+    }
+  });
+
+/**
+*activa el botón NEXT solo si se ingresaron 10 dígitos(la siguiente función se
+*asegura de que estos 10 digitos sean solo números)
+*/
+  $('#phonee').keyup(function(){
+    if($(this).val().length > 9){
+      $('#submitBtn').removeAttr('disabled');
+    } else {
+      $('#submitBtn').attr('disabled','disabled');
+    }
+  }).trigger('keyup');
+
 });
 
